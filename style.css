@@ -1,0 +1,150 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+.hero {
+  background: url('dique-punta-negra.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  background: rgba(0, 134, 180, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.instructors {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.instructor-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.instructor {
+  margin: 20px;
+  max-width: 250px;
+}
+
+.instructor img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h3 {
+  color: #0086B4;
+}
+
+.services,
+.benefits {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.location {
+  padding: 50px 20px;
+  background-color: #fffefe;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.cta {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.cta-button {
+  background-color: #0086B4;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #005f82;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.banner_central {
+  background-size: cover;
+  background-position: center;
+  padding: 230px 0;
+}
+
+.banner_central h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner_central p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-bottom: 0px;
+}
+
+
+#banner-typed-text{
+  color: white;
+  margin-bottom: 3px;
+}
+
+.segmento-presentacion{
+  background-color: #f6f6f6;
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-top: 90px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-width: 0px 0px 0px 0px;
+  border-color: #eae9e9;
+  border-style: solid;
+}
